@@ -42,3 +42,11 @@ func main() {
 
 	datos(texto)
 }
+
+/** Resultados en consola:
+
+El texto dado cuenta con 587 caracteres, 86 palabras y 8 líneas. En este texto los espacios son contados como caracter.
+
+El texto dado cuenta con 485 caracteres, 86 palabras y 8 líneas. En este texto los espacios no son contados como caracter.
+
+*/
