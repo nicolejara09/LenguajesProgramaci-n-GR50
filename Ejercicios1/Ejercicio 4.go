@@ -83,12 +83,12 @@ func llenar() {
 
 func main() {
 	llenar()
-	fmt.Println("\n--Los zapatos fueron agregados con éxito.") //Agrega los zapatos con tallas acetadas
+	fmt.Println("\n--Los zapatos fueron agregados con éxito.") // Agrega los zapatos con tallas acetadas
 	fmt.Println("\n--Los zapatos que con los que cuenta la tienda son los siguientes:", lZapatos)
 
 	lZapatos.agregarZapatos("Dior", 50500, 30, 4) // No se agregarán porque no tienen tallas correctas
 
-	lZapatos.agregarZapatos("Nike", 30000, 44, 10) // Se agregarán  tienen tallas correctas
+	lZapatos.agregarZapatos("Nike", 30000, 44, 10) // Se agregarán ya que tienen tallas correctas
 	fmt.Println("\n--Se agregó una nueva marca de zapatos.", lZapatos)
 
 	lZapatos.venderZapatos("Puma", 34, 4)
