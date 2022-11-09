@@ -1,0 +1,11 @@
+Elementos creadosEditorGrafico {
+
+elemento='Creación de Datos',
+ 
+figuras=[Circulo{  elemento='Circulo', pi=3.14, radio=55, altura=0, largo=0, ancho=0, vertices=0, perimetro=0}, Cuadrado{  elemento='Cuadrado', lado=15, altura=0, largo=0, ancho=0, vertices=0, perimetro=0}],
+ 
+textos=[Texto{texto='Stan Dreamcatcher'}, Texto{texto='Ojalá pasar lenguajes :c'}],
+ 
+grupos=[Grupo{elemento='Grupo Mutual La Vivienda', figuras=[Circulo{  elemento='Circulo', pi=3.14, radio=55, altura=0, largo=0, ancho=0, vertices=0, perimetro=0}]}]
+
+}
